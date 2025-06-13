@@ -18,7 +18,7 @@ public class Ticket {
 
     private String titre;
 
-    @Lob
+
     private String description;
 
     private LocalDateTime dateCreation;
