@@ -32,6 +32,6 @@ public class EquipementController {
     @DeleteMapping("{idD}")
     public ResponseEntity<EquipementDto> delete(@PathVariable Long idD){
         equipementService.delete(idD);
-        return ResponseEntity.ok().build();
+    return ResponseEntity.ok().build();
     }
 }
